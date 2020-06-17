@@ -3,5 +3,7 @@ module.exports.home = function(req,res){
 }
 
 module.exports.profile = function(req,res){
-    return res.end('<h1>user profile page</h1>');
+    return res.render('user_profile',{
+        title: "User Profile"
+    });
 }

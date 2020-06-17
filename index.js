@@ -7,9 +7,7 @@ app.use('/',require('./routes/index'))
 
 //ser up the view engine
 app.set('view engine','ejs');
-app.set('views','./view');
-
-
+app.set('views','./views');
 
 
 
